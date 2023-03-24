@@ -2,7 +2,7 @@ import { SiDiscord, SiGithub, SiSteam } from 'react-icons/si';
 
 export default function SocialLinks() {
   return (
-    <div className="mt-10">
+    <div className="mt-6">
       <ul className="flex justify-center items-center space-x-4">
         <li>
           <a href="https://github.com/drethenrain">

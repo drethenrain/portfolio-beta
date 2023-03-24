@@ -4,6 +4,6 @@
 
 @layer base {
   body {
-    @apply bg-white text-[#2a3853] dark:text-white dark:bg-slate-700
+    @apply bg-white text-[#2a3853] dark:text-white dark:bg-slate-700 subpixel-antialiased	
   }
 }

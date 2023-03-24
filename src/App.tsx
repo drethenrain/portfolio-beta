@@ -4,7 +4,7 @@ import SocialLinks from './components/SocialLinks';
 function App() {
   return (
     <>
-      <div className="text-center  mx-auto">
+      <div className="flex flex-col justify-center items-center h-screen text-center">
         <Main />
         <SocialLinks />
       </div>

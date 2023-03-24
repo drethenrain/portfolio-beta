@@ -23,16 +23,20 @@ export default function Main() {
     <>
       <Avatar />
       <h2 className="text-3xl font-black">
-        Hi
-        <span
-          onClick={() => {
-            setFaroClicks(faroClicks + 1);
-          }}
-        >
-          👋
+        <span>
+          Hi 👋,
+          <span
+            onClick={() => {
+              setFaroClicks(faroClicks + 1);
+            }}
+          >
+            &nbsp;
+          </span>
+          i'm Lucas <br />
         </span>
-        , i am Lucas <br />
-        <span className="text-2xl font-light ">
+      </h2>
+      <h2 className="text-2xl font-light">
+        <span>
           A person who likes to contribute
           <span
             onClick={() => {

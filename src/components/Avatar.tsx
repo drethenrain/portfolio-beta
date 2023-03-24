@@ -26,7 +26,7 @@ export default function Avatar() {
       onClick={() => {
         setTheme(!theme);
       }}
-      className="mx-auto mt-36 mb-8 rounded-full lg:w-28 md:w-24 w-1/4 ring-offset-2 ring-4 ring-indigo-500/100"
+      className="mx-auto mb-8 rounded-full lg:w-28 md:w-24 w-1/4 ring-offset-2 ring-4 ring-indigo-500/100"
     />
   );
 }
