@@ -3,19 +3,19 @@ import { useEffect, useState } from 'react';
 import Avatar from './Avatar';
 
 import bonoAudio from '../assets/bonoaudio.mp3';
-import faroAudio from '../assets/rodrigofaro.mp3';
+import luanAudio from '../assets/luangameplays.mp3';
 
 export default function Main() {
   const [bonoClicks, setBonoClicks] = useState(0);
-  const [faroClicks, setFaroClicks] = useState(0);
+  const [luanClicks, setluanClicks] = useState(0);
 
   useEffect(() => {
     if (bonoClicks === 30) {
       new Audio(bonoAudio).play();
     }
 
-    if (faroClicks === 30) {
-      new Audio(faroAudio).play();
+    if (luanClicks === 30) {
+      new Audio(luanAudio).play();
     }
   });
 
@@ -24,13 +24,13 @@ export default function Main() {
       <Avatar />
       <h2 className="text-3xl font-black">
         <span>
-          Hi 👋,
+          Hi,&nbsp;
           <span
             onClick={() => {
-              setFaroClicks(faroClicks + 1);
+              setluanClicks(luanClicks + 1);
             }}
           >
-            &nbsp;
+            👋&nbsp;
           </span>
           i'm Lucas <br />
         </span>
